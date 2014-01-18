@@ -1,0 +1,281 @@
+#
+# Any file named repair.*.yml in the mcmmmo folder will be loaded as a repair config
+# All repair configs have a main section titled "Repairables"
+# Afterwards, all sub-items are considered a Repairable to be loaded
+# The bare minimum of a Repairable is that it have an ItemId, a RepairMaterialId, and a MaximumDurability
+#
+# ItemId: This is the id of the item to be repairable.
+## This is required to be set.
+#
+# ItemType: This is the type of item to be repaired, this is only important to permissions.
+## Valid values are ARMOR, TOOL, and OTHER.
+## This defaults to OTHER.
+#
+# MaterialType: This is the type of the material of the item to be repaired, this is only important for permissions.
+## Valid values are STRING, LEATHER, WOOD, STONE, IRON, GOLD, DIAMOND, and OTHER
+## This defaults to OTHER.
+#
+# RepairMaterialId: This is the id of the item used to repair this repairable.
+## This is required to be set.
+#
+# RepairMaterialMetadata: This is the metadata of the item used to repair this repairable.
+## A value of -1 means to ignore all metadata when repairing.
+## This defaults to -1
+#
+# MaximumDurability: This is the maximum durability of the item.
+## This is required to be set.
+#
+# MinimumLevel: This is the minimum repair level needed to repair this item.
+## Valid values are > 0
+## This defaults to 0
+#
+# MinimumQuantity: This is the minimum number of items needed to repair this item ignoring all other repair bonuses.
+## This is typically the number of the repair material needed to create a new item, for example for a sword it is 2, for an axe it is 3
+## This defaults to 2
+#
+# XpMultiplier: This is the amount to multiply the xp bonus by.
+## This defaults to 1
+#
+#
+###
+Repairables:
+    #
+    #### Tools
+    #
+    #Axes
+    #
+    BronzeAxe:
+        ItemId: 30199
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 30246
+        RepairMaterialMetadata: -1
+        MaximumDurability: 350
+        MinimumLevel: 25
+        XpMultiplier: 1
+    RubyAxe:
+        ItemId: 1284
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 0
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    SapphireAxe:
+        ItemId: 1286
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 2
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    EmeraldAxe:
+        ItemId: 1285
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 1
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    #
+    #Hoes
+    #
+    BronzeHoe:
+        ItemId: 30196
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 30246
+        RepairMaterialMetadata: -1
+        MaximumDurability: 350
+        MinimumLevel: 25
+        XpMultiplier: 1
+    RubyHoe:
+        ItemId: 1287
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 0
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    SapphireHoe:
+        ItemId: 1289
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 2
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    EmeraldHoe:
+        ItemId: 1288
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 1
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    #
+    #Pickaxes
+    #
+    BronzePickaxe:
+        ItemId: 30200
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 30246
+        RepairMaterialMetadata: -1
+        MaximumDurability: 350
+        MinimumLevel: 25
+        XpMultiplier: 1
+    RubyPickaxe:
+        ItemId: 1281
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 0
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    SapphirePickaxe:
+        ItemId: 1283
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 2
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    EmeraldPickaxe:
+        ItemId: 1282
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 1
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    #
+    #Shovel
+    #
+    BronzeShovel:
+        ItemId: 30197
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 30246
+        RepairMaterialMetadata: -1
+        MaximumDurability: 350
+        MinimumLevel: 25
+        XpMultiplier: 1
+    RubyShovel:
+        ItemId: 1278
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 0
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    SapphireShovel:
+        ItemId: 1280
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 2
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    EmeraldShovel:
+        ItemId: 1279
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 1
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    #
+    #Swords
+    #
+    BronzeSword:
+        ItemId: 30198
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 30246
+        RepairMaterialMetadata: -1
+        MaximumDurability: 350
+        MinimumLevel: 25
+        XpMultiplier: 1
+    RubySword:
+        ItemId: 1275
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 0
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    SapphireSword:
+        ItemId: 1277
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 2
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    EmeraldSword:
+        ItemId: 1276
+        ItemType: TOOL
+        MaterialType: OTHER
+        RepairMaterialId: 1257
+        RepairMaterialMetadata: 1
+        MaximumDurability: 500
+        MinimumLevel: 40
+        XpMultiplier: 1
+    #
+    #Armor
+    #
+    BronzeHelmet:
+        ItemId: 30195
+        ItemType: ARMOR
+        MaterialType: OTHER
+        RepairMaterialId: 30246
+        RepairMaterialMetadata: -1
+        MaximumDurability: 215
+        MinimumLevel: 25
+        MinimumQuantity: 5
+        XpMultiplier: 1
+    BronzeChest:
+        ItemId: 30194
+        ItemType: ARMOR
+        MaterialType: OTHER
+        RepairMaterialId: 30246
+        RepairMaterialMetadata: -1
+        MaximumDurability: 312
+        MinimumLevel: 25
+        MinimumQuantity: 8
+        XpMultiplier: 1
+    BronzeLegs:
+        ItemId: 30193
+        ItemType: ARMOR
+        MaterialType: OTHER
+        RepairMaterialId: 30246
+        RepairMaterialMetadata: -1
+        MaximumDurability: 293
+        MinimumLevel: 25
+        MinimumQuantity: 7
+        XpMultiplier: 1
+    BronzeBoots:
+        ItemId: 30192
+        ItemType: ARMOR
+        MaterialType: OTHER
+        RepairMaterialId: 30246
+        RepairMaterialMetadata: -1
+        MaximumDurability: 254
+        MinimumLevel: 25
+        MinimumQuantity: 4
+        XpMultiplier: 1

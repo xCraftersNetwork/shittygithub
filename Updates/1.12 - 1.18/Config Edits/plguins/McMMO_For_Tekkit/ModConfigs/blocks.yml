@@ -1,0 +1,278 @@
+# 
+#  Settings for Custom Excavation Blocks
+Excavation:
+  Block_1:
+    ID: 999
+    Data_Value: 0
+    XP_Gain: 99
+    Drop_Item: false
+    Drop_Item_ID: 999
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Block_2:
+    ID: 999
+    Data_Value: 0
+    XP_Gain: 99
+    Drop_Item: false
+    Drop_Item_ID: 999
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+Herbalism:
+  Block_1:
+    ID: 999
+    Data_Value: 0
+    XP_Gain: 99
+    Drop_Item: false
+    Drop_Item_ID: 999
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Block_2:
+    ID: 999
+    Data_Value: 0
+    XP_Gain: 99
+    Drop_Item: false
+    Drop_Item_ID: 999
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Indigo_Flower:
+    ID: 139
+    Data_Value: 0
+    XP_Gain: 50
+    Drop_Item: true
+    Drop_Item_ID: 139
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Flax_Top:
+    ID: 144
+    Data_Value: 5
+    XP_Gain: 30
+    Drop_Item: true
+    Drop_Item_ID: 287
+    Drop_Item_Data_Value: -1
+    Drop_Item_Amount: 1
+  Flax_Bottom:
+    ID: 144
+    Data_Value: 4
+    XP_Gain: 30
+    Drop_Item: true
+    Drop_Item_ID: 287
+    Drop_Item_Data_Value: -1
+    Drop_Item_Amount: 1
+Mining:
+  Block_1:
+    ID: 999
+    Data_Value: 0
+    XP_Gain: 99
+    Is_Ore: true
+    Tier: 1
+    Drop_Item: false
+    Drop_Item_ID: 999
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Block_2:
+    ID: 999
+    Data_Value: 0
+    XP_Gain: 99
+    Is_Ore: true
+    Tier: 1
+    Drop_Item: false
+    Drop_Item_ID: 999
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Nether_Gold_Ore:
+    ID: 135
+    Data_Value: 2
+    XP_Gain: 350
+    Is_Ore: true
+    Tier: 3
+    Drop_Item: true
+    Drop_Item_ID: 135
+    Drop_Item_Data_Value: 2
+    Drop_Item_Amount: 1
+  Nether_Iron_Ore:
+    ID: 135
+    Data_Value: 3
+    XP_Gain: 250
+    Is_Ore: true
+    Tier: 3
+    Drop_Item: true
+    Drop_Item_ID: 135
+    Drop_Item_Data_Value: 3
+    Drop_Item_Amount: 1
+  Nether_Redstone_Ore:
+    ID: 135
+    Data_Value: 5
+    XP_Gain: 150
+    Is_Ore: false
+    Tier: 3
+    Drop_Item: true
+    Drop_Item_ID: 331
+    Drop_Item_Data_Value: -1
+    Drop_Item_Amount: 4
+  Nether_Copper_Ore:
+    ID: 135
+    Data_Value: 6
+    XP_Gain: 150
+    Is_Ore: true
+    Tier: 2
+    Drop_Item: true
+    Drop_Item_ID: 135
+    Drop_Item_Data_Value: 6
+    Drop_Item_Amount: 1
+  Nether_Tin_Ore:
+    ID: 135
+    Data_Value: 7
+    XP_Gain: 250
+    Is_Ore: true
+    Tier: 3
+    Drop_Item: true
+    Drop_Item_ID: 135
+    Drop_Item_Data_Value: 7
+    Drop_Item_Amount: 1
+  Ruby_Ore:
+    ID: 140
+    Data_Value: 0
+    XP_Gain: 650
+    Is_Ore: true
+    Tier: 4
+    Drop_Item: true
+    Drop_Item_ID: 1257
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Emerald_Ore:
+    ID: 140
+    Data_Value: 1
+    XP_Gain: 650
+    Is_Ore: true
+    Tier: 4
+    Drop_Item: true
+    Drop_Item_ID: 1257
+    Drop_Item_Data_Value: 1
+    Drop_Item_Amount: 1
+  Sapphire_Ore:
+    ID: 140
+    Data_Value: 2
+    XP_Gain: 650
+    Is_Ore: true
+    Tier: 4
+    Drop_Item: true
+    Drop_Item_ID: 1257
+    Drop_Item_Data_Value: 2
+    Drop_Item_Amount: 1
+  Silver_Ore:
+    ID: 140
+    Data_Value: 3
+    XP_Gain: 450
+    Is_Ore: true
+    Tier: 4
+    Drop_Item: true
+    Drop_Item_ID: 140
+    Drop_Item_Data_Value: 3
+    Drop_Item_Amount: 1
+  Tin_Ore:
+    ID: 248
+    Data_Value: -1
+    XP_Gain: 250
+    Is_Ore: true
+    Tier: 3
+    Drop_Item: true
+    Drop_Item_ID: 248
+    Drop_Item_Data_Value: -1
+    Drop_Item_Amount: 1
+  Copper_Ore:
+    ID: 249
+    Data_Value: -1
+    XP_Gain: 150
+    Is_Ore: true
+    Tier: 2
+    Drop_Item: true
+    Drop_Item_ID: 249
+    Drop_Item_Data_Value: -1
+    Drop_Item_Amount: 1
+  Tungsten_Ore:
+    ID: 140
+    Data_Value: 6
+    XP_Gain: 950
+    Is_Ore: true
+    Tier: 4
+    Drop_Item: true
+    Drop_Item_ID: 140
+    Drop_Item_Data_Value: 6
+    Drop_Item_Amount: 1
+  Nikolite_Ore:
+    ID: 140
+    Data_Value: 7
+    XP_Gain: 350
+    Is_Ore: true
+    Tier: 3
+    Drop_Item: true
+    Drop_Item_ID: 1257
+    Drop_Item_Data_Value: 6
+    Drop_Item_Amount: 4
+  Uranium_Ore:
+    ID: 247
+    Data_Value: -1
+    XP_Gain: 350
+    Is_Ore: false
+    Tier: 3
+    Drop_Item: true
+    Drop_Item_ID: 30243
+    Drop_Item_Data_Value: -1
+    Drop_Item_Amount: 1
+  Marble:
+    ID: 142
+    Data_Value: 0
+    XP_Gain: 40
+    Is_Ore: false
+    Tier: 2
+    Drop_Item: true
+    Drop_Item_ID: 142
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Basalt:
+    ID: 142
+    Data_Value: 3
+    XP_Gain: 30
+    Is_Ore: false
+    Tier: 1
+    Drop_Item: true
+    Drop_Item_ID: 142
+    Drop_Item_Data_Value: 1
+    Drop_Item_Amount: 1
+Woodcutting:
+  Block_1:
+    ID: 999
+    Data_Value: 0
+    XP_Gain: 99
+    Is_Log: true
+    Drop_Item: false
+    Drop_Item_ID: 999
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Block_2:
+    ID: 999
+    Data_Value: 0
+    XP_Gain: 99
+    Is_Log: true
+    Drop_Item: false
+    Drop_Item_ID: 999
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Rubber_Wood1:
+    ID: 143
+    Data_Value: 0
+    XP_Gain: 80
+    Is_Log: true
+    Drop_Item: true
+    Drop_Item_ID: 143
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1
+  Rubber_Wood2:
+    ID: 243
+    Data_Value: 0
+    XP_Gain: 80
+    Is_Log: true
+    Drop_Item: true
+    Drop_Item_ID: 243
+    Drop_Item_Data_Value: 0
+    Drop_Item_Amount: 1

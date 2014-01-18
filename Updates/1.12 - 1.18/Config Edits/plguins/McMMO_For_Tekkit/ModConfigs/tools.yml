@@ -1,0 +1,538 @@
+# 
+#  Settings for Axes
+Axes:
+  Axe_1:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Axe_2:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bronze_Axe:
+    ID: 30199
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 3
+    Repairable: true
+    Repair_Material_ID: 30246
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 3
+    Durability: 325
+  Ruby_Axe:
+    ID: 1284
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 3
+    Durability: 500
+  Sapphire_Axe:
+    ID: 1286
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 2
+    Repair_Material_Quantity: 3
+    Durability: 500
+  Emerald_Axe:
+    ID: 1285
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 1
+    Repair_Material_Quantity: 3
+    Durability: 500
+  Dark_Matter_Axe:
+    ID: 27547
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Red_Matter_Axe:
+    ID: 27568
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Chainsaw:
+    ID: 30233
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 3
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+Bows:
+  Bow_1:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bow_2:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+Hoes:
+  Hoe_1:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Hoe_2:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bronze_Hoe:
+    ID: 30196
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 3
+    Repairable: true
+    Repair_Material_ID: 30246
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 2
+    Durability: 325
+  Ruby_Hoe:
+    ID: 1287
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 2
+    Durability: 500
+  Sapphire_Hoe:
+    ID: 1289
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 2
+    Repair_Material_Quantity: 2
+    Durability: 500
+  Emerald_Hoe:
+    ID: 1288
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 1
+    Repair_Material_Quantity: 2
+    Durability: 500
+  Dark_Matter_Hoe:
+    ID: 27545
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Red_Matter_Hoe:
+    ID: 27566
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Electric_Hoe:
+    ID: 30119
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 3
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+Pickaxes:
+  Pickaxe_1:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Pickaxe_2:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bronze_Pickaxe:
+    ID: 30200
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 3
+    Repairable: true
+    Repair_Material_ID: 30246
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 3
+    Durability: 325
+  Ruby_Pickaxe:
+    ID: 1281
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 3
+    Durability: 500
+  Sapphire_Pickaxe:
+    ID: 1283
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 2
+    Repair_Material_Quantity: 3
+    Durability: 500
+  Emerald_Pickaxe:
+    ID: 1282
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 1
+    Repair_Material_Quantity: 3
+    Durability: 500
+  Dark_Matter_Pickaxe:
+    ID: 27543
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Red_Matter_Pickaxe:
+    ID: 27564
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Dark_Matter_Hammer:
+    ID: 27555
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Red_Matter_Hammer:
+    ID: 27570
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Red_Morning_Star:
+    ID: 27573
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Mining_Drill:
+    ID: 30235
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 3
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Diamond_Drill:
+    ID: 30234
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Mining_Laser:
+    ID: 30208
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+Shovels:
+  Shovel_1:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Shovel_2:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bronze_Shovel:
+    ID: 30197
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 3
+    Repairable: true
+    Repair_Material_ID: 30246
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 1
+    Durability: 325
+  Ruby_Shovel:
+    ID: 1278
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 1
+    Durability: 500
+  Sapphire_Shovel:
+    ID: 1280
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 2
+    Repair_Material_Quantity: 1
+    Durability: 500
+  Emerald_Shovel:
+    ID: 1279
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 1
+    Repair_Material_Quantity: 1
+    Durability: 500
+  Dark_Matter_Shovel:
+    ID: 27544
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Red_Matter_Shovel:
+    ID: 27565
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+Swords:
+  Sword_1:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Sword_2:
+    ID: 999
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 1
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bronze_Sword:
+    ID: 30198
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 3
+    Repairable: true
+    Repair_Material_ID: 30246
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 2
+    Durability: 325
+  Ruby_Sword:
+    ID: 1275
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 2
+    Durability: 500
+  Sapphire_Sword:
+    ID: 1277
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 2
+    Repair_Material_Quantity: 2
+    Durability: 500
+  Emerald_Sword:
+    ID: 1276
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: true
+    Repair_Material_ID: 1257
+    Repair_Material_Data_Value: 1
+    Repair_Material_Quantity: 2
+    Durability: 500
+  Dark_Matter_Sword:
+    ID: 27546
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Red_Matter_Sword:
+    ID: 27567
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Nano_Saber:
+    ID: 30148
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Nano_Saber2:
+    ID: 30149
+    XP_Modifer: 1.0
+    Ability_Enabled: true
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999
+  Red_Katar:
+    ID: 27572
+    XP_Modifer: 1.0
+    Ability_Enabled: false
+    Tier: 4
+    Repairable: false
+    Repair_Material_ID: 0
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 0
+    Durability: 9999

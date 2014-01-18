@@ -1,0 +1,104 @@
+# 
+#  Settings for Boots
+Boots:
+  Boot_1:
+    ID: 999
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Boot_2:
+    ID: 999
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bronze_Boots:
+    ID: 30192
+    Repairable: true
+    Repair_Material_ID: 30246
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 4
+    Durability: 254
+  Rubber_Boots:
+    ID: 30211
+    Repairable: true
+    Repair_Material_ID: 30216
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 6
+    Durability: 64
+Chestplates:
+  Chestplate_1:
+    ID: 999
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Chestplate_2:
+    ID: 999
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bronze_Chestplate:
+    ID: 30194
+    Repairable: true
+    Repair_Material_ID: 30246
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 8
+    Durability: 312
+  Composite_Vest:
+    ID: 30179
+    Repairable: true
+    Repair_Material_ID: 30187
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 6
+    Durability: 800
+Helmets:
+  Helmet_1:
+    ID: 999
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Helmet_2:
+    ID: 999
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bronze_Helmet:
+    ID: 30195
+    Repairable: true
+    Repair_Material_ID: 30246
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 5
+    Durability: 215
+Leggings:
+  Legging_1:
+    ID: 999
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Legging_2:
+    ID: 999
+    Repairable: true
+    Repair_Material_ID: 99
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 9
+    Durability: 9999
+  Bronze_Legging:
+    ID: 30193
+    Repairable: true
+    Repair_Material_ID: 30246
+    Repair_Material_Data_Value: 0
+    Repair_Material_Quantity: 7
+    Durability: 293

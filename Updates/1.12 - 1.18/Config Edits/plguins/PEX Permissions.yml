@@ -1,0 +1,1960 @@
+groups:
+  lvl1:
+    default: true
+    info: []
+    permissions:
+    - essentials.kit
+    - citizens.quester.use.*
+    - essentials.afk
+    - essentials.balance
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.kit.starter
+    - essentials.list
+    - essentials.mail
+    - essentials.motd
+    - essentials.rules
+    - essentials.sethome
+    - essentials.signs.use.*
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - factions.kit.fullplayer
+    - essentials.ban.notify
+    - factions.money
+    inheritance: []
+    build: true
+    prefix: '&f[&2Citizen&f] &f'
+    options:
+      rank: 50
+  lvl2:
+    default: false
+    info: []
+    permissions:
+    - essentials.msg
+    - essentials.pay
+    inheritance:
+    - lvl1
+    build: true
+    prefix: '&f[&2Level 2&f] &f'
+    options:
+      rank: 49
+  lvl3:
+    default: false
+    info: []
+    permissions:
+    - essentials.mail.send
+    inheritance:
+    - lvl2
+    build: true
+    prefix: '&f[&2Level 3&f] &f'
+    options:
+      rank: 48
+  lvl4:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl3
+    build: true
+    prefix: '&f[&2Level 4&f] &f'
+    options:
+      rank: 47
+  lvl5:
+    default: false
+    info: []
+    permissions:
+    - essentials.chat.shout
+    inheritance:
+    - lvl4
+    build: true
+    prefix: '&f[&2Levle 5&f] &f'
+    options:
+      rank: 46
+  lvl6:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl5
+    build: true
+    prefix: '&f[&2Level 6&f] &f'
+    options:
+      rank: 45
+  lvl7:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl6
+    build: true
+    prefix: '&f[&2Level 7&f] &f'
+    options:
+      rank: 44
+  lvl8:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl7
+    build: true
+    prefix: '&f[&2Level 8&f] &f'
+    options:
+      rank: 43
+  lvl9:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl8
+    build: true
+    prefix: '&f[&2Level 9&f] &f'
+    options:
+      rank: 42
+  lvl10:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl9
+    build: true
+    prefix: '&f[&6Level 10&f] &f'
+    options:
+      rank: 41
+  lvl11:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl10
+    build: true
+    prefix: '&f[&6Level 11&f] &f'
+    options: rank:40
+  lvl12:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl11
+    build: true
+    prefix: '&f[&6Level 12&f] &f'
+    options: rank:39
+  lvl13:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl12
+    build: true
+    prefix: '&f[&6Level 13&f] &f'
+    options: rank:38
+  lvl14:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl13
+    build: true
+    prefix: '&f[&6Level 14&f] &f'
+    options: rank:37
+  lvl15:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl14
+    build: true
+    prefix: '&f[&6Level 15&f] &f'
+    options: rank:36
+  lvl16:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl15
+    build: true
+    prefix: '&f[&6Level 16&f] &f'
+    options: rank:35
+  lvl17:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl16
+    build: true
+    prefix: '&f[&6Level 17&f] &f'
+    options: rank:34
+  lvl18:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl17
+    build: true
+    prefix: '&f[&6Level 18&f] &f'
+    options: rank:33
+  lvl19:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl18
+    build: true
+    prefix: '&f[&6Level 19&f] &f'
+    options: rank:32
+  lvl20:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl19
+    build: true
+    prefix: '&f[&4Level 20&f] &f'
+    options: rank:31
+  lvl21:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl20
+    build: true
+    prefix: '&f[&4Level 21&f] &f'
+    options: rank:30
+  lvl22:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl21
+    build: true
+    prefix: '&f[&4Level 22&f] &f'
+    options: rank:29
+  lvl23:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl22
+    build: true
+    prefix: '&f[&4Level 23&f] &f'
+    options: rank:28
+  lvl24:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl23
+    build: true
+    prefix: '&f[&4Level 24&f] &f'
+    options: rank:27
+  lvl25:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl24
+    build: true
+    prefix: '&f[&4Level 25&f] &f'
+    options: rank:26
+  lvl26:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl25
+    build: true
+    prefix: '&f[&4Level 26&f] &f'
+    options: rank:25
+  lvl27:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl26
+    build: true
+    prefix: '&f[&4Level 27&f] &f'
+    options: rank:24
+  lvl28:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl27
+    build: true
+    prefix: '&f[&4Level 28&f] &f'
+    options: rank:23
+  lvl29:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl28
+    build: true
+    prefix: '&f[&4Level 29&f] &f'
+    options: rank:22
+  lvl30:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - lvl29
+    build: true
+    prefix: '&f[&3&lLevel 30&f] &f'
+    options: rank:21
+  Soldier:
+    default: false
+    info: []
+    permissions:
+    - essentials.chat.color
+    - essentials.hat
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.kit
+    - essentials.kit.soldier
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.nick
+    - essentials.pay
+    - essentials.ping
+    - essentials.portal
+    - essentials.powertool
+    - essentials.rules
+    - essentials.sethome
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.warp
+    - essentials.warp.list
+    - lwc.protect
+    - giftpost.chest.*
+    - tekkitcustomizer.181.5.*
+    inheritance:
+    - lvl1
+    build: true
+    prefix: '&7(&aSoldier&7) &a'
+    options:
+      rank: 14
+  Knight:
+    default: false
+    info: []
+    permissions:
+    - essentials.afk
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.chat.color
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.exp
+    - essentials.heal
+    - essentials.help
+    - essentials.helpop
+    - essentials.home
+    - essentials.ignore
+    - essentials.kit.knight
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.nick
+    - essentials.color
+    - essentials.pay
+    - essentials.ping
+    - essentials.repair
+    - essentials.rules
+    - essentials.sethome
+    - essentials.signs.use.*
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.weather
+    - limitedcreative.nolimit.break
+    - lwc.protect
+    inheritance:
+    - soldier
+    build: true
+    prefix: '&7(&6Knight&7) &f'
+    suffix: '&a'
+    options:
+      rank: 12
+  VIP:
+    default: false
+    info: []
+    permissions:
+    - essentials.kit.general
+    - essentials.help
+    - mobdisguise.mob.Pig
+    - mobdisguise.mob.Sheep
+    - mobdisguise.mob.Squid
+    - mobdisguise.mob.Chicken
+    - essentials.afk.kickexempt
+    - essentials.ext
+    - essnrtials.feed
+    - essentials.heal
+    - essentials.exp
+    - essentials.near
+    inheritance:
+    - knight
+    build: true
+    prefix: '&7(&6VIP&7) &6'
+    options:
+      rank: 10
+  Legendary:
+    default: false
+    info: []
+    permissions:
+    - essentials.nick.color
+    - essentials.heal
+    - essentials.kit*
+    - essentials.kit.legendary
+    - mobdisguise.mob.Pig
+    - mobdisguise.mob.Sheep
+    - mobdisguise.mob.Squid
+    - mobdisguise.mob.Chicken
+    - essentials.gc
+    - essentials.sethome.multiple
+    inheritance:
+    - VIP
+    build: true
+    prefix: '&f[&6Legend&f] &5'
+    options:
+      rank: 8
+  Founders:
+    default: false
+    info: []
+    permissions: []
+    inheritance:
+    - Legendary
+    build: true
+    prefix: '&a[&d&oFounder&a] '
+    options:
+      rank: 7
+  Mod:
+    default: false
+    info: []
+    permissions:
+    - essentials.nick.color
+    - essentials.nick
+    - essentials.nick.format
+    - essentials.nick.magic
+    - essentials.ban
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.magic
+    - essentials.chat.question
+    - essentials.chat.shout
+    - essentials.god
+    - essentials.kick
+    - essentials.setjail
+    - essentials.socialspy
+    - essentials.tempban
+    - essentials.tp
+    - essentials.unban
+    - essentials.weather
+    - hawkeye.tool
+    inheritance:
+    - lvl1
+    build: true
+    prefix: '&f[&5&lMod&f]'
+    options:
+      rank: 6
+  Head-Mod:
+    default: false
+    info: []
+    inheritance:
+    - mod
+    build: true
+    prefix: '&f[&5&lHead Mod&f]'
+    options:
+      rank: 5
+  Admin:
+    default: false
+    info: []
+    permissions:
+    - -essentials.backup
+    - -essentials.essentials
+    - -essentials.setspawn
+    - -essentials.reloadall
+    - -essentials.plugin
+    - admincmd.*
+    - allow-admin-bypass
+    - allow-admin-snoop
+    - bcs.bypass.*
+    - cswitch.*
+    - essentials.*
+    - groupmanager.mangcheckp
+    - groupmanager.manglistp
+    - groupmanager.mansave
+    - groupmanager.mantogglevalidate
+    - groupmanager.manucheckp
+    - groupmanager.manulistp
+    - worldguard.region.bypass
+    - hawkeye.*
+    inheritance:
+    - mod
+    build: true
+    prefix: '&f[&4&lAdmin&f]&4 '
+    options:
+      rank: 4
+    worlds:
+      wolfvuki:
+        permissions:
+        - user
+      johno58:
+        permissions:
+        - user
+  Head-Admin:
+    default: false
+    info: []
+    permissions: []
+    inheritance: []
+    build: true
+    prefix: '[&1&lHead&f-&4&lAdmin&r] &f'
+    options:
+      rank: 3
+  Advisor:
+    default: false
+    info: []
+    permissions:
+    - sentry.*
+    - limitedcreative.nolimit.break
+    - nolagg.log
+    - tekkitrestrict.admin
+    - coloredtablist.magic
+    - permissions.manage*
+    - permissions.manage
+    - hawkeye.*
+    - factions.*
+    inheritance:
+    - admin
+    build: true
+    prefix: '&f[&2Advisor&f]&3 '
+    suffix: '&4'
+    options:
+      rank: 1
+  CoOwner:
+    default: false
+    permissions:
+    - sentry.*
+    - limitedcreative.nolimit.break
+    - nolagg.log
+    - tekkitrestrict.admin
+    - coloredtablist.magic
+    - permissions.manage*
+    - permissions.manage
+    - hawkeye.*
+    inheritance:
+    - admin
+    build: true
+    prefix: '[&4&lCo-Owner&f] '
+    options:
+      rank: 2
+  Owner:
+    default: false
+    info: []
+    permissions:
+    - sentry.*
+    - limitedcreative.nolimit.break
+    - nolagg.log
+    - tekkitrestrict.admin
+    - coloredtablist.magic
+    - permissions.manage*
+    - permissions.manage
+    - hawkeye.*
+    - factions.*
+    inheritance:
+    - admin
+    build: true
+    prefix: '&f[&6&lOwner&f]&3 '
+    suffix: '&4'
+    options:
+      rank: 1
+users:
+  masggzz:
+    group:
+    - founders
+  sirston:
+    group:
+    - founders
+  Newboy65:
+    group:
+    - lvl19
+  InuYasha_312:
+    group:
+    - Admin
+  zmerlin2:
+    group:
+    - VIP
+  Gamehub:
+    group:
+    - VIP
+  dragonebl:
+    group:
+    - lvl20
+  nanastasakis:
+    group:
+    - VIP
+  Yuno_Gasaii:
+    group:
+    - Head-Mod
+    - Mod
+    - VIP
+  Mtbikers136:
+    group:
+    - lvl10
+  SakuraPus:
+    group:
+    - lvl3
+  PrimCNinja:
+    group:
+    - lvl20
+  COWEIM:
+    group:
+    - lvl8
+  mrf99:
+    group:
+    - lvl2
+  inkyp3:
+    group:
+    - Admin
+    - lvl20
+  Xman45:
+    group:
+    - VIP
+  c_breezy918:
+    group:
+    - lvl20
+  xCraftersNetwork:
+    group:
+    - lvl9
+  wolfvuki:
+    group:
+    - CoOwner
+    - Co-Owner
+    - Admin
+    - lvl20
+  evankopp:
+    group:
+    - lvl10
+  Peterlebeast:
+    group:
+    - lvl20
+  Jake_From_Kmart:
+    group:
+    - lvl2
+  boston562:
+    group:
+    - lvl3
+  justintime44:
+    group:
+    - lvl20
+  QuadSlayer:
+    group:
+    - lvl20
+  fishpants9:
+    group:
+    - lvl8
+  Atom101010:
+    group:
+    - lvl2
+  oreosawyer:
+    group:
+    - lvl20
+  THE__TAKEOVER:
+    group:
+    - lvl20
+  dennisjmilliken:
+    group:
+    - lvl18
+  X_0_X_S_0_S:
+    group:
+    - lvl2
+  hooterSx2319:
+    group:
+    - lvl2
+  zerek789:
+    group:
+    - lvl6
+  Patjwawro:
+    group:
+    - lvl2
+  yokey123:
+    group:
+    - lvl6
+  Albalwal:
+    group:
+    - lvl20
+  mycrazyaddiction:
+    group:
+    - lvl18
+  deivydas12:
+    group:
+    - lvl6
+  alllifeisagamble:
+    group:
+    - lvl3
+  _xSelseor_:
+    group:
+    - Owner
+    - Admin
+    - lvl20
+  swatteam185:
+    group:
+    - lvl20
+  3picD4nte:
+    group:
+    - lvl20
+  BeastBaseballBoy:
+    group:
+    - lvl3
+  Evilbunk:
+    group:
+    - lvl7
+  ZpawZ:
+    group:
+    - lvl5
+  osamabl236:
+    group:
+    - lvl20
+  arch2978:
+    group:
+    - lvl5
+  superethan7:
+    group:
+    - lvl13
+  kobesnow:
+    group:
+    - VIP
+    - lvl20
+  RaidinglordZzZ:
+    group:
+    - lvl2
+  goliathzone35:
+    group:
+    - lvl14
+  oEXILEDxDAEDRAo:
+    group:
+    - lvl19
+  niceboy6:
+    group:
+    - lvl9
+  _SNOWBLIND_:
+    group:
+    - lvl2
+  Alecn8r777:
+    group:
+    - lvl12
+  LordOfDavid:
+    group:
+    - lvl2
+  adriannilsen:
+    group:
+    - lvl8
+  Andreas_the_man:
+    group:
+    - lvl3
+  Sjokkoman123:
+    group:
+    - lvl3
+  JB_Awesome:
+    group:
+    - lvl19
+  BlueGoldenKnight:
+    group:
+    - lvl4
+  harrypee:
+    group:
+    - lvl7
+  KidsGotSavvy:
+    group:
+    - lvl18
+  KidsGotNerve:
+    group:
+    - lvl10
+  JonathanDP08:
+    group:
+    - lvl3
+  jcon47:
+    group:
+    - lvl2
+  sweredneck:
+    group:
+    - lvl6
+  band12345:
+    group:
+    - lvl6
+  rensaarts:
+    group:
+    - lvl7
+  robdum13:
+    group:
+    - lvl2
+  ScavengerDG:
+    group:
+    - lvl2
+  Halo37311:
+    group:
+    - lvl13
+  iceuas:
+    group:
+    - lvl8
+  aloosh90:
+    group:
+    - lvl8
+  SKYWARR10R:
+    group:
+    - lvl8
+  marcu0924:
+    group:
+    - lvl3
+  _ShadowDude_:
+    group:
+    - lvl4
+  jsam01:
+    group:
+    - lvl3
+  josion:
+    group:
+    - lvl7
+  _Swift_Killer_:
+    group:
+    - lvl20
+  johnny247:
+    group:
+    - lvl3
+  ninja36910:
+    group:
+    - lvl6
+  killerCHE3ZE:
+    group:
+    - lvl13
+  watermelon_miner:
+    group:
+    - lvl2
+  KismetDragon:
+    group:
+    - lvl19
+  Atral:
+    group:
+    - lvl19
+  liamvass:
+    group:
+    - lvl3
+  slagathor1234:
+    group:
+    - lvl4
+  mip122:
+    group:
+    - lvl20
+  tron978:
+    group:
+    - lvl4
+  MultiKillerjoe:
+    group:
+    - lvl3
+  wild_thing1:
+    group:
+    - lvl3
+  creepachu:
+    group:
+    - lvl5
+  dicecsr:
+    group:
+    - lvl7
+  veboy6:
+    group:
+    - lvl2
+  soapdish124:
+    group:
+    - lvl12
+  chocolateftd:
+    group:
+    - lvl6
+  britishsoldier12:
+    group:
+    - lvl17
+  omnamnam511:
+    group:
+    - lvl11
+  Startrek2866:
+    group:
+    - lvl19
+  Hotswapping:
+    group:
+    - lvl16
+  Ballpythonlover:
+    group:
+    - lvl9
+  XxBeLuGa_SLaP:
+    group:
+    - lvl7
+  Jyenormous_09:
+    group:
+    - lvl6
+  BrianAccordi3221:
+    group:
+    - lvl2
+  G_E_O_R_G_E_2_0:
+    group:
+    - VIP
+    - lvl20
+  redstoneminer96:
+    group:
+    - lvl3
+  slyferrio1:
+    group:
+    - lvl8
+  Johno58:
+    group:
+    - Admin
+  chelskifan21:
+    group:
+    - lvl3
+  yellowvod:
+    group:
+    - lvl11
+  TheBinbenat0r:
+    group:
+    - lvl18
+  BrysonC:
+    group:
+    - lvl6
+  coolben99:
+    group:
+    - lvl2
+  PeanutButter_199:
+    group:
+    - lvl8
+  ZaxDark:
+    group:
+    - lvl12
+  King_EnErD_23:
+    group:
+    - lvl2
+  NoahTrotter:
+    group:
+    - lvl3
+  demon5491:
+    group:
+    - lvl19
+  Crizics:
+    group:
+    - lvl3
+  zachary8833:
+    group:
+    - lvl3
+  kingrex3:
+    group:
+    - lvl2
+  Halo_Rooster:
+    group:
+    - lvl2
+  Turkishmonk:
+    group:
+    - lvl7
+  tyguy2001:
+    group:
+    - lvl12
+  cheetah958:
+    group:
+    - lvl6
+  PeculiarGuy:
+    group:
+    - lvl7
+  alpine123:
+    group:
+    - lvl3
+  peoplesmind:
+    group:
+    - lvl8
+  DigBuild:
+    group:
+    - lvl17
+  Blanxers:
+    group:
+    - lvl20
+  NoobMasterX7:
+    group:
+    - lvl6
+  firefly369:
+    group:
+    - lvl3
+  KaylanMuggeridge:
+    group:
+    - lvl2
+  Hicko11:
+    group:
+    - lvl20
+  bshaw01:
+    group:
+    - lvl19
+  proudhard:
+    group:
+    - lvl17
+  CDWhiteley:
+    group:
+    - lvl13
+  quaderdude:
+    group:
+    - lvl17
+  xX_BunkerDawg_Xx:
+    group:
+    - lvl11
+  TheJuice101:
+    group:
+    - lvl6
+  perter_12345:
+    group:
+    - lvl7
+  lucaslamlam:
+    group:
+    - lvl6
+  TrollinQQ:
+    group:
+    - lvl7
+  boyman_01:
+    group:
+    - lvl18
+  KingRJ_786:
+    group:
+    - lvl11
+  SilverGamma:
+    group:
+    - lvl8
+  InfectedDuck:
+    group:
+    - lvl14
+  nyancalum:
+    group:
+    - lvl11
+  ArthurLaursen:
+    group:
+    - lvl2
+  shadedoom:
+    group:
+    - lvl20
+  cokkie325567:
+    group:
+    - lvl2
+  brandon4liberty:
+    group:
+    - lvl2
+  magnus878:
+    group:
+    - lvl3
+  crolingzombi:
+    group:
+    - lvl11
+  Slendermender123:
+    group:
+    - lvl19
+  crappymeow4:
+    group:
+    - lvl19
+  knut2001:
+    group:
+    - lvl8
+  discoplatz400:
+    group:
+    - lvl14
+  MegaAssassino:
+    group:
+    - lvl19
+  doppiadthebest:
+    group:
+    - lvl17
+  Kulekamil:
+    group:
+    - lvl20
+  noahmari:
+    group:
+    - lvl20
+  CodMc88:
+    group:
+    - lvl8
+  Creeper78123:
+    group:
+    - lvl19
+  greenfare:
+    group:
+    - lvl14
+  funnykid56789:
+    group:
+    - lvl20
+  FunnyKid567:
+    group:
+    - lvl20
+  xxremsterrulesxx:
+    group:
+    - lvl19
+  KillerBlight:
+    group:
+    - lvl11
+  cybibla:
+    group:
+    - lvl19
+  Waterboy51499:
+    group:
+    - lvl3
+  jan_andreas03:
+    group:
+    - lvl5
+  krisfc:
+    group:
+    - lvl19
+  Eselpol:
+    group:
+    - lvl11
+  Bakgardskatta:
+    group:
+    - lvl8
+  Sonaldinho:
+    group:
+    - lvl7
+  Minemann4000:
+    group:
+    - lvl4
+  FreeKikerz:
+    group:
+    - lvl4
+  ii_am_crab:
+    group:
+    - lvl6
+  DOGGYR3MIX:
+    group:
+    - lvl4
+  tmartinnes:
+    group:
+    - lvl19
+  BlazeLord01:
+    group:
+    - lvl20
+  tinykid68:
+    group:
+    - lvl20
+  casper0410:
+    group:
+    - lvl19
+  ii_am_cabbage:
+    group:
+    - lvl7
+  sid705:
+    group:
+    - lvl4
+  _Tjh4567_:
+    group:
+    - lvl17
+  joyo123456:
+    group:
+    - lvl2
+  Azzerathe:
+    group:
+    - lvl19
+  jamieohare123:
+    group:
+    - lvl2
+  Pandaassassins:
+    group:
+    - lvl19
+  FpsTheWannaB:
+    group:
+    - lvl19
+  MrSarks59:
+    group:
+    - lvl7
+  tobias4433:
+    group:
+    - lvl20
+  99bluemine99:
+    group:
+    - lvl2
+  mikkiman12:
+    group:
+    - lvl3
+  jordanc21:
+    group:
+    - lvl12
+  jmann9:
+    group:
+    - lvl11
+  gabe21950022:
+    group:
+    - lvl3
+  darkfire489:
+    group:
+    - lvl2
+  xCulocane_:
+    group:
+    - lvl5
+  thebigvu:
+    group:
+    - lvl6
+  Danskmanden:
+    group:
+    - lvl3
+  happy132:
+    group:
+    - lvl2
+  moonslifer1:
+    group:
+    - lvl2
+  maglas:
+    group:
+    - lvl7
+  thebeekilla:
+    group:
+    - lvl8
+  Zmonii:
+    group:
+    - lvl7
+  deathkiller9469:
+    group:
+    - lvl6
+  Hawkdude_77:
+    group:
+    - lvl6
+  a84759:
+    group:
+    - VIP
+  boyking2002:
+    group:
+    - lvl7
+  deathglow:
+    group:
+    - lvl11
+  v7KillStreaker:
+    group:
+    - lvl2
+  Try4Vendetta:
+    group:
+    - lvl3
+  nikolaymari:
+    group:
+    - lvl4
+  youwillneverno:
+    group:
+    - lvl15
+  DDM_Assassin:
+    group:
+    - lvl15
+  Axol900:
+    group:
+    - lvl19
+  lilgameplayer:
+    group:
+    - lvl5
+  ranger80123:
+    group:
+    - lvl3
+  Samurai_Nacho:
+    group:
+    - lvl6
+  awesomevw:
+    group:
+    - lvl5
+  slompod:
+    group:
+    - lvl3
+  Squallboogie:
+    group:
+    - lvl10
+  Milsey:
+    group:
+    - lvl3
+  suchy89pl:
+    group:
+    - lvl2
+  TorchMiner101:
+    group:
+    - lvl7
+  16krihaug16:
+    group:
+    - lvl2
+  DeadlyPudding02:
+    group:
+    - lvl7
+  Actionmoviekid:
+    group:
+    - lvl17
+  TheOnesieGamer:
+    group:
+    - lvl11
+  noicium2001:
+    group:
+    - lvl3
+  LuddeSwe2001:
+    group:
+    - lvl7
+  pro_miner2000:
+    group:
+    - lvl3
+  dragontron:
+    group:
+    - lvl2
+  LordFragBlack:
+    group:
+    - lvl17
+  XxDer_BoBxX:
+    group:
+    - lvl8
+  Vincreeper:
+    group:
+    - lvl2
+  andyjumbo321:
+    group:
+    - lvl2
+  shanpie:
+    group:
+    - lvl4
+  ScavengerDB:
+    group:
+    - lvl5
+  SgtJackson15:
+    group:
+    - lvl9
+  BurKNEEmac:
+    group:
+    - lvl9
+  cormac169:
+    group:
+    - lvl7
+  acebull22:
+    group:
+    - lvl3
+  Riniboy99:
+    group:
+    - lvl14
+  zonemen:
+    group:
+    - lvl17
+  Neos_Dragon:
+    group:
+    - lvl11
+  MajorAustin:
+    group:
+    - lvl2
+  Vaiant:
+    group:
+    - lvl6
+  dragon100513:
+    group:
+    - lvl4
+  potterpal333:
+    group:
+    - lvl2
+  ngecko:
+    group:
+    - lvl5
+  Hellarious:
+    group:
+    - lvl5
+  CJEmerald:
+    group:
+    - lvl20
+  mathias_q:
+    group:
+    - lvl12
+  xxrepsacxx:
+    group:
+    - lvl10
+  smiley_guy_:
+    group:
+    - lvl4
+  dironothunder:
+    group:
+    - lvl7
+  tha2003:
+    group:
+    - lvl8
+  skylord_sem:
+    group:
+    - lvl7
+  ty5000:
+    group:
+    - lvl3
+  StruckBen999:
+    group:
+    - lvl7
+  Madman_Myles:
+    group:
+    - lvl2
+  Gagenhiemer8498:
+    group:
+    - lvl3
+  kojo500:
+    group:
+    - lvl5
+  Too_Funny:
+    group:
+    - lvl4
+  alexnderh2000:
+    group:
+    - lvl2
+  4zncrafter:
+    group:
+    - lvl6
+  Dycipher:
+    group:
+    - lvl8
+  Coviier:
+    group:
+    - lvl2
+  henblak:
+    group:
+    - lvl6
+  Mattusso:
+    group:
+    - lvl9
+  zombiekiller81:
+    group:
+    - lvl10
+  swsh9:
+    group:
+    - lvl6
+  Snoopy0910:
+    group:
+    - lvl2
+  kootre563:
+    group:
+    - lvl19
+  Deathwing202:
+    group:
+    - lvl2
+  LimeChocobo:
+    group:
+    - lvl11
+  TheAwkwardPie:
+    group:
+    - lvl8
+  Riagmonkey:
+    group:
+    - lvl9
+  MC_0wnish:
+    group:
+    - Mod
+  rigbyrigby:
+    group:
+    - lvl2
+  dirtman78:
+    group:
+    - lvl2
+  youshibro:
+    group:
+    - lvl2
+  tomkaste:
+    group:
+    - lvl10
+  EMLE123:
+    group:
+    - lvl3
+  benjamin1000:
+    group:
+    - lvl2
+  LegendPie:
+    group:
+    - lvl5
+  madssbj:
+    group:
+    - lvl7
+  pyrethedirtbag:
+    group:
+    - lvl6
+  tylo74:
+    group:
+    - lvl12
+  danpoonie00:
+    group:
+    - lvl2
+  nikolaj140:
+    group:
+    - lvl5
+  kenkas123:
+    group:
+    - lvl3
+  _Gimme64Wood_:
+    group:
+    - lvl8
+  bossdarkraven:
+    group:
+    - lvl7
+  Xgame12:
+    group:
+    - lvl7
+  the_narwhal_king:
+    group:
+    - lvl7
+  Rasmus666:
+    group:
+    - lvl2
+  laugepro:
+    group:
+    - lvl2
+  TOBIX02:
+    group:
+    - lvl2
+  NicolaiHov:
+    group:
+    - lvl2
+  jaidyn09:
+    group:
+    - lvl2
+  minecraft_lego11:
+    group:
+    - lvl2
+  Thebleegel:
+    group:
+    - lvl3
+  007v5:
+    group:
+    - lvl2
+  DAVIDBEKKEN:
+    group:
+    - lvl3
+  jimjamer89:
+    group:
+    - lvl19
+  veazeydog123:
+    group:
+    - lvl19
+  crawford35:
+    group:
+    - lvl8
+  SukHoon:
+    group:
+    - lvl8
+  Daltonlebrave:
+    group:
+    - lvl7
+    - Advisor
+  Remmylaw:
+    group:
+    - lvl19
+  coolcraft123457:
+    group:
+    - lvl16
+  minecooldimonds:
+    group:
+    - lvl19
+  xXBanzai1013Xx:
+    group:
+    - lvl19
+  megadragon777:
+    group:
+    - lvl4
+  jakobsloat2001:
+    group:
+    - lvl15
+  TheConfusedPear1:
+    group:
+    - lvl15
+  dtipene:
+    group:
+    - lvl18
+  xMoNsTaR_:
+    group:
+    - lvl6
+  stevo24:
+    group:
+    - lvl6
+  3antaS2:
+    group:
+    - lvl8
+  thim2001:
+    group:
+    - lvl11
+  dkpatrick:
+    group:
+    - lvl12
+  Fredjf:
+    group:
+    - lvl2
+  rough_diamond:
+    group:
+    - lvl6
+  dhlimo1234:
+    group:
+    - lvl7
+  Mike5a:
+    group:
+    - lvl4
+  HoneyedHam:
+    group:
+    - lvl19
+  Shadowdragon44:
+    group:
+    - lvl7
+  BOC_Rylan:
+    group:
+    - lvl18
+  Ellatje7933:
+    group:
+    - lvl13
+  TH3SURVIV0R:
+    group:
+    - lvl3
+  ACFreak:
+    group:
+    - lvl4
+  nemot3:
+    group:
+    - lvl2
+  18monkeyman:
+    group:
+    - lvl3
+  hazzer554:
+    group:
+    - lvl20
+  KurusIV:
+    group:
+    - lvl2
+  Delte94:
+    group:
+    - lvl2
+  turo666:
+    group:
+    - lvl6
+  End_Creeper12345:
+    group:
+    - lvl10
+  j_poika:
+    group:
+    - lvl11
+  stormdragon99:
+    group:
+    - lvl4
+  CEI_2000:
+    group:
+    - lvl16
+  Vanills97:
+    group:
+    - lvl7
+  BOSS4685:
+    group:
+    - lvl4
+  cris95miche:
+    group:
+    - lvl2
+  mickman99:
+    group:
+    - lvl2
+  marcusqqq:
+    group:
+    - lvl4
+  Storm_Surge268:
+    group:
+    - lvl15
+  rockinred9:
+    group:
+    - lvl2
+  littleninja101:
+    group:
+    - lvl3
+  captiancookiez:
+    group:
+    - lvl15
+  Marsupalami:
+    group:
+    - Legendary
+  lauver3:
+    group:
+    - lvl3
+  mytho01:
+    group:
+    - lvl6
+  DRcrOFt:
+    group:
+    - lvl6
+  King_Cool12:
+    group:
+    - lvl2
+  cavedweller54:
+    group:
+    - lvl2
+  Netherguy98521:
+    group:
+    - lvl2
+  gogocam_1999:
+    group:
+    - lvl17
+  jeppetis:
+    group:
+    - lvl19
+  jacob32trausen:
+    group:
+    - lvl14
+  mikkelblom:
+    group:
+    - lvl7
+  MathiasRB:
+    group:
+    - lvl3
+  punabessu:
+    group:
+    - lvl16
+  Julian_Pahl:
+    group:
+    - lvl2
+  jboyes123:
+    group:
+    - lvl2
+  skilledsteak:
+    group:
+    - lvl12
+  toploader11:
+    group:
+    - lvl9
+  killer1818:
+    group:
+    - lvl2
+  Dude_Minecraft:
+    group:
+    - lvl2
+  Con777:
+    group:
+    - lvl2
+  ninjawarrior9:
+    group:
+    - lvl20
+  Tomxres:
+    group:
+    - lvl12
+  shadowslayer267:
+    group:
+    - lvl3
+  Onslaught33:
+    group:
+    - lvl6
+  badboy900:
+    group:
+    - lvl19
+  fistermoritz:
+    group:
+    - lvl2
+  krillesangill:
+    group:
+    - lvl2
+  gulehaj:
+    group:
+    - lvl6
+  inappropriateQ:
+    group:
+    - lvl3
+  harbocasper:
+    group:
+    - lvl6
+  lsstender:
+    group:
+    - lvl6
+  Crazy_Sasha_Cat:
+    group:
+    - lvl2
+  jiiimbo:
+    group:
+    - lvl2
+  rmjki:
+    group:
+    - lvl2
+  chrisyhoo100:
+    group:
+    - lvl9
+  cheesy33:
+    group:
+    - lvl17
+  CaleBags:
+    group:
+    - lvl8
+  Cookiemoster20:
+    group:
+    - lvl6
+  jetcar34:
+    group:
+    - lvl9
+  desmondo11:
+    group:
+    - lvl8
+  jenseman7:
+    group:
+    - lvl8
+  pokedust:
+    group:
+    - lvl7
+  jdog511:
+    group:
+    - lvl19
+  GrievingOrc:
+    group:
+    - lvl3
+  lukasgroth0307:
+    group:
+    - lvl2
+  flauntymercury:
+    group:
+    - lvl7
+  Comehome22:
+    group:
+    - lvl3
+  nandos333:
+    group:
+    - lvl2
+  KRIS290m:
+    group:
+    - lvl2
+  fabbe2001:
+    group:
+    - lvl2
+  polarabe:
+    group:
+    - lvl14
+  canadian_pooper:
+    group:
+    - lvl3
+  Dayousch412:
+    group:
+    - lvl2
+  jarvinen123321:
+    group:
+    - lvl14
+  lovekake:
+    group:
+    - lvl3
+  RedNinja9887:
+    group:
+    - lvl2
+  Walleye2000:
+    group:
+    - lvl5
+  elijah_88:
+    group:
+    - lvl2
+  harris6972:
+    group:
+    - lvl14
+  SGHx:
+    group:
+    - lvl18
+  Blueraguard:
+    group:
+    - lvl5
+  You_Spicy:
+    group:
+    - lvl7
+  Dman_lo:
+    group:
+    - lvl9
+  '0988650160':
+    group:
+    - lvl19
+  mattgkills:
+    group:
+    - lvl2
+  Bboy7299:
+    group:
+    - lvl15
+  alexpls:
+    group:
+    - lvl12
+  xDRxRAGE:
+    group:
+    - lvl10
+  shermon104:
+    group:
+    - lvl3
+  bluepanda105:
+    group:
+    - lvl3
+  lookman0306:
+    group:
+    - lvl3
+  NotAlexBelliveau:
+    group:
+    - lvl2
+  Afro_Samurai112:
+    group:
+    - lvl5
+  austinhardy12:
+    group:
+    - lvl2
+  Tiger_Hippo:
+    group:
+    - lvl3
+  robocutie:
+    group:
+    - lvl3
+  06elliot03:
+    group:
+    - lvl2
+  GQwafflemaker:
+    group:
+    - lvl8
+  voyageurs:
+    group:
+    - lvl6
+  TheGamers785:
+    group:
+    - lvl2
+  atacante2:
+    group:
+    - lvl3
+  MuchoLokao:
+    group:
+    - lvl3
+  heroofrings:
+    group:
+    - lvl5
+  bouncer556678:
+    group:
+    - lvl7
+  Zac_40:
+    group:
+    - lvl4
+  chrisboehm:
+    group:
+    - lvl3
+  killerjake051z:
+    group:
+    - lvl3
+  nathangome4:
+    group:
+    - lvl3
+  CMTekCop:
+    group:
+    - lvl5
+  MsR6_8:
+    group:
+    - lvl6
+  HellsofFire:
+    group:
+    - lvl3
+  VoetbalTijger_nl:
+    group:
+    - lvl4
+  SteffenF009:
+    group:
+    - lvl2
+  jon_gregg_2002:
+    group:
+    - lvl3
+  99raceboyj:
+    group:
+    - lvl4
+  rune_extreme:
+    group:
+    - lvl2

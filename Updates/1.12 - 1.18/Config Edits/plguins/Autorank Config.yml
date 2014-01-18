@@ -1,0 +1,150 @@
+Enabled: true
+Debug mode: false
+Message prefix: '&6'
+Leaderboard layout: '&p | &n - &th hour(s) and &m minute(s)!'
+Essentials AFK integration: true
+'1':
+  from: lvl1
+  to: lvl2
+  required minutes played: 30
+  message: '&2Congratulations, you are now a level 2!'
+'2':
+  from: lvl2
+  to: lvl3
+  required minutes played: 60
+  message: '&2Congratulations, you are now a level 3!'
+'3':
+  from: lvl3
+  to: lvl4
+  required minutes played: 120
+  message: '&2Congratulations, you are now a level 4!'
+'4':
+  from: lvl4
+  to: lvl5
+  required minutes played: 180
+  message: '&2Congratulations, you are now a level 5!'
+'5':
+  from: lvl5
+  to: lvl6
+  required minutes played: 240
+  message: '&2Congratulations, you are now a level 6!'
+'6':
+  from: lvl6
+  to: lvl7
+  required minutes played: 360
+  message: '&2Congratulations, you are now a level 7!'
+'7':
+  from: lvl7
+  to: lvl8
+  required minutes played: 480
+  message: '&2Congratulations, you are now a level 8!'
+'8':
+  from: lvl8
+  to: lvl9
+  required minutes played: 600
+  message: '&2Congratulations, you are now a level 9!'
+'9':
+  from: lvl9
+  to: lvl10
+  required minutes played: 720
+  message: '&2Congratulations, you are now a level 10!'
+'10':
+  from: lvl10
+  to: lvl11
+  required minutes played: 840
+  message: '&2Congratulations, you are now a level 11!'
+'11':
+  from: lvl11
+  to: lvl12
+  required minutes played: 960
+  message: '&2Congratulations, you are now a level 12!'
+'12':
+  from: lvl12
+  to: lvl13
+  required minutes played: 1080
+  message: '&2Congratulations, you are now a level 13!'
+'13':
+  from: lvl13
+  to: lvl14
+  required minutes played: 1200
+  message: '&2Congratulations, you are now a level 14!'
+'14':
+  from: lvl14
+  to: lvl15
+  required minutes played: 1320
+  message: '&2Congratulations, you are now a level 15!'
+'15':
+  from: lvl15
+  to: lvl16
+  required minutes played: 1440
+  message: '&2Congratulations, you are now a level 16!'
+'16':
+  from: lvl16
+  to: lvl17
+  required minutes played: 1560
+  message: '&2Congratulations, you are now a level 17!'
+'17':
+  from: lvl17
+  to: lvl18
+  required minutes played: 1680
+  message: '&2Congratulations, you are now a level 18!'
+'18':
+  from: lvl18
+  to: lvl19
+  required minutes played: 1800
+  message: '&2Congratulations, you are now a level 19!'
+'19':
+  from: lvl19
+  to: lvl20
+  required minutes played: 2160
+  message: '&2Congratulations, you are now a level 20!'
+'20':
+  from: lvl20
+  to: lvl21
+  required minutes played: 2520
+  message: '&2Congratulations, you are now a level 21!'
+'21':
+  from: lvl21
+  to: lvl22
+  required minutes played: 2840
+  message: '&2Congratulations, you are now a level 22!'
+'22':
+  from: lvl22
+  to: lvl23
+  required minutes played: 3200
+  message: '&2Congratulations, you are now a level 23!'
+'23':
+  from: lvl23
+  to: lvl24
+  required minutes played: 3560
+  message: '&2Congratulations, you are now a level 24!'
+'24':
+  from: lvl24
+  to: lvl25
+  required minutes played: 3920
+  message: '&2Congratulations, you are now a level 25!'
+'25':
+  from: lvl25
+  to: lvl26
+  required minutes played:4280
+  message: '&2Congratulations, you are now a level 26!'
+'26':
+  from: lvl26
+  to: lvl27
+  required minutes played: 4640
+  message: '&2Congratulations, you are now a level 27!'
+'27':
+  from: lvl27
+  to: lvl28
+  required minutes played: 5000
+  message: '&2Congratulations, you are now a level 28!'
+'28':
+  from: lvl28
+  to: lvl29
+  required minutes played:5360
+  message: '&2Congratulations, you are now a level 29!'
+'29':
+  from: lvl29
+  to: lvl30
+  required minutes played: 5720
+  message: '&2Congratulations, you are now a level 30!'
